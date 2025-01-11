@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/file.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/file2.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/file3.woff2);
+}
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/file4.woff2);
+}
+@font-face {
+  font-family: anzo5;
+  src: url(./assets/file5.woff2);
+}
+@font-face {
+  font-family: anzo;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pop {
+  animation: pop 1.5s infinite; /* Adjust the duration (1.5s) as needed */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+#page1-in {
+  position: relative;
+  perspective: 1000px;
+}
+
+#section2 {
+  position: relative;
+  perspective: 2500px;
+}
+
+#tiltDiv{
+  width: fit-content;
+}
+
+.rotateText {
+  transform-origin: 100% 70%;
+}
+
+.projectImage {
+  perspective: 1000px;
+}
+
+.appwriteGlow {
+  box-shadow: 0 0 3px #fe296d, 0 0 20px #fe296d, 0 0 0px #fe296d; /* Multiple shadows for a stronger glow */
+}
+.reactGlow {
+  box-shadow: 0 0 3px #0cd0ff, 0 0px 18px #00ccff, 0 0 0px #0cd0ff; /* Multiple shadows for a stronger glow */
+}
+.tailwindGlow {
+  box-shadow: 0 0 3px #38bdf8, 0 0 20px #38bdf8, 0 0 0px #38bdf8; /* Multiple shadows for a stronger glow */
+}
