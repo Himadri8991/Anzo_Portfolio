@@ -230,7 +230,7 @@ const Page4 = () => {
                   href="https://tathastu-jade.vercel.app/"
                   target="_blank"
                 >
-                  <h3 className="font-[anzo2] text-[1vw] ">B.Log() </h3>
+                  <h3 className="font-[anzo2] text-[1vw] ">Tathastu{" "} </h3>
                   <IoIosArrowDropupCircle className=" text-[1.5vw]  rounded-full rotate-[90deg]" />
                 </a>
                 <div className="font-[anzo2] text-[0.7vw] leading-2 ">
