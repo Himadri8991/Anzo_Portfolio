@@ -155,7 +155,7 @@ const Page4 = () => {
         <div className="mt-6 projects relative z-[5] w-[32vw] rounded-xl h-[90%] flex flex-col items-center justify-center gap-[4vw] ">
           <div className="e-commerce  w-[100%] flex-wrap flex flex-col gap-3 projectImage  items-center justify-center">
             <a
-              href="https://onixstore.vercel.app/"
+              href="https://himadri8991.github.io/Responsive-Travel-Webpage/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ pointerEvents: Link ? "auto" : "none" }}
@@ -178,21 +178,17 @@ const Page4 = () => {
             <div className="text text-white w-[85%] mx-1 flex flex-col flex-wrap ">
               <a
                 className="flex items-center gap-1 hover:underline w-fit"
-                href="https://onixstore.vercel.app/"
+                href="https://himadri8991.github.io/Responsive-Travel-Webpage/"
                 target="_blank"
               >
                 <h3 className="font-[anzo1] text-[1vw] tracking-wider">
-                  ONIXSTORE{" "}
+                  TRAVEL{" "}
                 </h3>
                 <IoIosArrowDropupCircle className=" text-[1.5vw]  rounded-full rotate-[90deg]" />
               </a>
               <div className="font-[anzo2] text-[0.7vw] leading-2">
                 <p className="tracking-wider">
-                  The e-commerce app features real-time data retrieval from the
-                  Appwrite database, enabling an engaging web application where
-                  users can authenticate using Appwrite, seamlessly filter and
-                  save items to their cart, products, providing an optimized
-                  shopping experience.
+                Responsive Travel Webpage - With Background Slider
                 </p>{" "}
               </div>
             </div>
@@ -208,7 +204,7 @@ const Page4 = () => {
           <div>
             <div className="e-commerce flex-wrap flex flex-col gap-3 projectImage w-[100%] items-center justify-center relative">
               <a
-                href="https://appwrite-blog-pi-one.vercel.app/"
+                href="https://tathastu-jade.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ pointerEvents: Link ? "auto" : "none" }}
@@ -231,7 +227,7 @@ const Page4 = () => {
               <div className="text text-white w-[85%] mx-1">
                 <a
                   className="flex items-center gap-1 hover:underline w-fit"
-                  href="https://appwrite-blog-pi-one.vercel.app/"
+                  href="https://tathastu-jade.vercel.app/"
                   target="_blank"
                 >
                   <h3 className="font-[anzo2] text-[1vw] ">B.Log() </h3>
@@ -239,9 +235,12 @@ const Page4 = () => {
                 </a>
                 <div className="font-[anzo2] text-[0.7vw] leading-2 ">
                   <p className="tracking-wider">
-                    A full-featured blog application enabling users to register,
-                    authenticate, view other users' profiles, and like their
-                    posts while seamlessly managing their blog posts.
+                  At TATHASTU, we believe education is a right, not a privilege. Our mission is to bridge the gap between students in need and generous donors who want to make a difference. Through scholarships, study materials, and direct financial aid, we empower students to overcome financial hurdles and chase their dreams.
+                  🚀 Why TATHASTU?
+✅ AI-Powered Transparency – Every contribution reaches the right hands.
+✅ Real Impact – Scholarships, resources, and career guidance that change lives.
+✅ Support Beyond Funds – Mentorship, internships, and skill development for a brighter future.
+Join us in reshaping education and creating a world where no student is left behind! 💙✨
                   </p>{" "}
                 </div>
               </div>
